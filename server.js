@@ -24,7 +24,7 @@ console.log("Connected to mongodb!!!")
     console.log(error);
 }};
 
-app.use(cors({origin:"https://freelancer-hub-frontend-git-main-usamas-projects-d2e4dbdb.vercel.app",credentials:true}));
+app.use(cors({origin:"https://freelancer-hub-frontend.vercel.app",credentials:true}));
 app.use(express.json());
 app.use(cookieParser());
 app.use("/api/auth", authRoute);
